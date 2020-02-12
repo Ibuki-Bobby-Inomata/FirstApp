@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b41317-46d6-4570-9f2c-35e354183ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/todo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,9 +50,9 @@
       <screen x="1792" y="23" width="3786" height="2137" />
     </state>
     <state x="2521" y="901" key="#com.intellij.fileTypes.FileTypeChooser/1792.23.3786.2137/0.23.1792.1097@1792.23.3786.2137" timestamp="1581418772413" />
-    <state x="2266" y="730" key="SettingsEditor" timestamp="1581472701741">
+    <state x="2266" y="730" key="SettingsEditor" timestamp="1581501412125">
       <screen x="1792" y="23" width="3786" height="2137" />
     </state>
-    <state x="2266" y="730" key="SettingsEditor/1792.23.3786.2137/0.23.1792.1097@1792.23.3786.2137" timestamp="1581472701741" />
+    <state x="2266" y="730" key="SettingsEditor/1792.23.3786.2137/0.23.1792.1097@1792.23.3786.2137" timestamp="1581501412125" />
   </component>
 </project>

@@ -14,8 +14,13 @@ def hello():
 #「/index」へアクセスがあった場合に、「index.html」を返す
 @app.route("/index")
 def index():
-    return render_template("index.html")
+    return render_template("home.html")
 
+#「/index」へアクセスがあった場合に、「index.html」を返す
+@app.route("/index/todo")
+def todo():
+    return render_template("todo.html")
 
+#おまじない
 if __name__ == "__main__":
     app.run(debug=True)
