@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b41317-46d6-4570-9f2c-35e354183ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Docker/dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/todo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +19,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XeuAy4RukmIPAeEhrFzNrPZ8Ha" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -45,14 +51,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2521" y="901" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581418772413">
       <screen x="1792" y="23" width="3786" height="2137" />
     </state>
     <state x="2521" y="901" key="#com.intellij.fileTypes.FileTypeChooser/1792.23.3786.2137/0.23.1792.1097@1792.23.3786.2137" timestamp="1581418772413" />
-    <state x="2266" y="730" key="SettingsEditor" timestamp="1581501412125">
-      <screen x="1792" y="23" width="3786" height="2137" />
+    <state x="218" y="386" key="SettingsEditor" timestamp="1581592318554">
+      <screen x="0" y="23" width="1738" height="1097" />
     </state>
+    <state x="218" y="386" key="SettingsEditor/0.23.1738.1097@0.23.1738.1097" timestamp="1581592318554" />
     <state x="2266" y="730" key="SettingsEditor/1792.23.3786.2137/0.23.1792.1097@1792.23.3786.2137" timestamp="1581501412125" />
   </component>
 </project>

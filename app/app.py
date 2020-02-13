@@ -21,6 +21,5 @@ def index():
 def todo():
     return render_template("todo.html")
 
-#おまじない
 if __name__ == "__main__":
     app.run(debug=True)
