@@ -23,7 +23,7 @@ def todo():
 
 #「/index」へアクセスがあった場合に、「index.html」を返す
 @app.route("/index/architecture")
-def todo():
+def architecture():
     return render_template("architecture.html")
 
 if __name__ == "__main__":
