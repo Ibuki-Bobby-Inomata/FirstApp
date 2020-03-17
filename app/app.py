@@ -21,5 +21,10 @@ def index():
 def todo():
     return render_template("todo.html")
 
+#「/index」へアクセスがあった場合に、「index.html」を返す
+@app.route("/index/architecture")
+def todo():
+    return render_template("architecture.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
