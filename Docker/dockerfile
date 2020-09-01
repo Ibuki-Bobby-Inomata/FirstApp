@@ -1,4 +1,15 @@
-FROM python
+FROM ubuntu
 
-RUN apt update && apt upgrade -y && apt install -y git make vim
-RUN pip install flask 
+RUN apt-get update && apt-get install -y 
+  git \
+  python3.8 \
+  python3-pip \
+  python3-dev
+
+RUN pip3 install --upgrade pip
+
+RUN pip install jupyterlab
+
+WORKDIR /work
+
+ENTRYPOINT ["/bin/bash"]

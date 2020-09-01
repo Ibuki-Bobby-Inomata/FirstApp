@@ -8,7 +8,7 @@ app = Flask(__name__)
 #「/」へアクセスがあった場合に、"Hello World"の文字列を返す
 @app.route("/")
 def hello():
-    return "Hello World"
+    return render_template('index.html')
 
 
 #「/index」へアクセスがあった場合に、「index.html」を返す
@@ -26,5 +26,8 @@ def todo():
 def architecture():
     return render_template("architecture.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=80, debug=False)
